@@ -1,17 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--
-
-    Copyright (c) 2022 codbex or an codbex affiliate company and contributors
-
-    All rights reserved. This program and the accompanying materials
-    are made available under the terms of the Eclipse Public License v2.0
-    which accompanies this distribution, and is available at
-    http://www.eclipse.org/legal/epl-v20.html
-
-    SPDX-FileCopyrightText: 2022 codbex or an codbex affiliate company and contributors
-    SPDX-License-Identifier: EPL-2.0
-
--->
 <profiles version="23">
     <profile kind="CodeFormatterProfile" name="codbex 1.0" version="23">
         <setting id="org.eclipse.jdt.core.formatter.insert_space_after_ellipsis" value="insert"/>
@@ -292,7 +279,7 @@
         <setting id="org.eclipse.jdt.core.formatter.comment.clear_blank_lines_in_javadoc_comment" value="false"/>
         <setting id="org.eclipse.jdt.core.formatter.alignment_for_relational_operator" value="0"/>
         <setting id="org.eclipse.jdt.core.formatter.alignment_for_expressions_in_array_initializer" value="16"/>
-        <setting id="org.eclipse.jdt.core.formatter.number_of_empty_lines_to_preserve" value="3"/>
+        <setting id="org.eclipse.jdt.core.formatter.number_of_empty_lines_to_preserve" value="1"/>
         <setting id="org.eclipse.jdt.core.formatter.insert_space_after_colon_in_case" value="insert"/>
         <setting id="org.eclipse.jdt.core.formatter.insert_space_after_additive_operator" value="insert"/>
         <setting id="org.eclipse.jdt.core.formatter.insert_space_before_closing_paren_in_if" value="do not insert"/>
