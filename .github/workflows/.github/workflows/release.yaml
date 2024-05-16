@@ -1,0 +1,28 @@
+name: Release - Platform
+
+on:
+  workflow_dispatch:
+    inputs:
+      release-version:
+        description: Release Version
+        required: true
+        default: 1.0.0
+      snapshot-version:
+        description: Snapshot Version
+        required: true
+        default: 1.0.0-SNAPSHOT
+
+run-name: 'version set to ${{ inputs.release-version }} for release'
+
+jobs:
+  main:
+    uses: codbex/codbex-infra/.github/workflows/platform-release.yaml@main
+    with:
+      platform-name: codbex-platform-settings
+      release-version: ${{ inputs.release-version }}
+      snapshot-version: ${{ inputs.snapshot-version }}
+      release-content: |
+        ## codbex-platform-settings - ${{ inputs.release-version }}
+  
+        Common settings for codbex platfrom project.
+    secrets: inherit
