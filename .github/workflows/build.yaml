@@ -10,4 +10,6 @@ jobs:
     uses: codbex/codbex-infra/.github/workflows/platform-build.yaml@main
     with:
       platform-name: codbex-platform-settings
+      docker-build: false
+      integration-tests: false
     secrets: inherit
