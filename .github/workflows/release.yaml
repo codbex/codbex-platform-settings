@@ -27,4 +27,13 @@ jobs:
         ## codbex-platform-settings - ${{ inputs.release-version }}
   
         Common settings for codbex platfrom project.
+
+        ```xml
+        <dependency>
+            <groupId>com.codbex.platform</groupId>
+            <artifactId>codbex-platform-settings</artifactId>
+            <version>${{ inputs.release-version }}</version>
+        </dependency>
+        ```
+
     secrets: inherit
