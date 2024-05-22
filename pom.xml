@@ -10,6 +10,7 @@
     </parent>
 
     <name>codbex - platform - settings</name>
+
     <groupId>com.codbex.platform</groupId>
     <artifactId>codbex-platform-settings</artifactId>
     <packaging>jar</packaging>
@@ -26,6 +27,13 @@
     </licenses>
 
     <url>https://codbex.com</url>
+
+    <scm>
+        <url>https://github.com/codbex/codbex-platform-settings</url>
+    </scm>
+    <issueManagement>
+        <url>https://github.com/codbex/codbex-platform-settings/issues</url>
+    </issueManagement>
 
     <distributionManagement>
         <snapshotRepository>
