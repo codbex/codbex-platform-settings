@@ -10,8 +10,8 @@
     </parent>
 
     <name>codbex - platform - settings</name>
-    <groupId>com.codbex</groupId>
-    <artifactId>platform-settings</artifactId>
+    <groupId>com.codbex.platform</groupId>
+    <artifactId>codbex-platform-settings</artifactId>
     <packaging>jar</packaging>
     <version>2.0.0-SNAPSHOT</version>
 
