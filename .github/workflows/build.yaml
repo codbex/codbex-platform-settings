@@ -12,4 +12,5 @@ jobs:
       platform-name: codbex-platform-settings
       docker-build: false
       integration-tests: false
+      code-style-checks: false
     secrets: inherit
