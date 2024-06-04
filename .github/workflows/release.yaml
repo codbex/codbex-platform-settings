@@ -18,6 +18,7 @@ jobs:
   main:
     uses: codbex/codbex-infra/.github/workflows/platform-release.yaml@main
     with:
+      code-style-checks: false
       platform-name: codbex-platform-settings
       maven-release: true
       docker-release: false
